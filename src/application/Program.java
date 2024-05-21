@@ -1,12 +1,10 @@
 package application;
 
+import boardgame.Board;
 import boardgame.Position;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Program {
-    public static void main(String[] args) {
-        Position pos = new Position(3, 5);
-        System.out.println(pos);
-    }
+    Board board = new Board(8, 8);
 }
